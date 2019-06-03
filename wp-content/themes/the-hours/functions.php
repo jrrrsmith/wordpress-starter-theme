@@ -4,7 +4,6 @@
 
   add_theme_support('menus');
 
-  add_action('init', 'init_remove_support',100);
 
   if( function_exists('acf_add_options_page') ) {
   
